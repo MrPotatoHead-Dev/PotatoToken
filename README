@@ -1,0 +1,4 @@
+Since we are using a block reward and calling ""block.coinbase"" 
+make sure you are using a network that has minners otherwise
+block.coinbase will call accounts(0) and you will keep running into 
+a error
